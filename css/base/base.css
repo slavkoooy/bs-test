@@ -1,3 +1,21 @@
+body,
+h2,
+h3,
+ul,
+ol,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
+}
+
+.nowrap {
+    white-space: nowrap;
 }
