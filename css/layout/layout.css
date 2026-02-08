@@ -1,0 +1,26 @@
+.section {
+    max-width: 993px;
+    margin: 64px auto;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 680px;
+    margin: 0 0 48px;
+}
+
+@media (max-width: 1023px) {
+    .section {
+        margin: 48px 0;
+        max-width: 100%;
+    }
+
+    .inner-container {
+        gap: 16px;
+        max-width: 608px;
+        margin: 28px auto;
+        padding: 0 16px;
+    }
+}

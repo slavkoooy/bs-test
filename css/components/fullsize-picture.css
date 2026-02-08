@@ -1,0 +1,31 @@
+.fullsize-picture {
+    margin: 0 0 48px;
+}
+
+.fullsize-picture__img {
+    display: block;
+    margin: 0 0 4px;
+}
+
+.fullsize-picture__img img {
+    width: 100%;
+    height: auto;
+}
+
+.fullsize-picture__description {
+    max-width: 680px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+@media (max-width: 1023px) {
+    .fullsize-picture {
+        margin: 0 0 28px;
+    }
+
+    .fullsize-picture__description {
+        max-width: 608px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+}

@@ -1,0 +1,9 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #00000026;
+    --blue: #0068FF;
+    --blue-hover: #004CBF;
+
+    --transition: 0.2s ease-in-out;
+}

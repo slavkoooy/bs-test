@@ -1,0 +1,28 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.numeric-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+    counter-reset: list;
+}
+
+.numeric-list__item {
+    position: relative;
+    padding: 0 0 0 32px;
+    font-size: 17px;
+    line-height: 26px;
+    counter-increment: list;
+}
+
+.numeric-list__item::before {
+    content: counter(list)".";
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
